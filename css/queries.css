@@ -23,4 +23,62 @@
     .hamburger {
         display: block;
     }
+
+    .logo {
+        font-size: 22px;
+    }
+
+    .menu {
+        font-size: 14px;
+    }
+
+    .editor-title{
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .slider-title{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .color-title{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .download-title{
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    #showEditor{
+        font-size: 13px;
+    }
+
+    .text-container{
+        margin-top: 60px;
+    }
+}
+
+@media (max-width: 605px) {
+
+    .logo {
+        font-size: 18px;
+    }
+
+    .text-container{
+        max-width: 26rem;
+    }
+
+    .navbar{
+        padding: 10px;
+    }
+}
+
+@media (max-width: 440px) {
+
+    .text-container{
+        max-width: 20rem;
+    }
 }
